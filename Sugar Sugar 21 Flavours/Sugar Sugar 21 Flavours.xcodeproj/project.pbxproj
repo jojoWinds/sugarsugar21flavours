@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65B2C89B266057B500288D10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2C89A266057B500288D10 /* AppDelegate.swift */; };
+		65B2C89D266057B500288D10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2C89C266057B500288D10 /* SceneDelegate.swift */; };
+		65B2C89F266057B500288D10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2C89E266057B500288D10 /* ViewController.swift */; };
+		65B2C8A2266057B500288D10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B2C8A0266057B500288D10 /* Main.storyboard */; };
+		65B2C8A5266057B500288D10 /* Sugar_Sugar_21_Flavours.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65B2C8A3266057B500288D10 /* Sugar_Sugar_21_Flavours.xcdatamodeld */; };
+		65B2C8A7266057BD00288D10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B2C8A6266057BD00288D10 /* Assets.xcassets */; };
+		65B2C8AA266057BD00288D10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B2C8A8266057BD00288D10 /* LaunchScreen.storyboard */; };
+		65B2C8B5266057BE00288D10 /* Sugar_Sugar_21_FlavoursTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2C8B4266057BE00288D10 /* Sugar_Sugar_21_FlavoursTests.swift */; };
+		65B2C8C0266057BE00288D10 /* Sugar_Sugar_21_FlavoursUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B2C8BF266057BE00288D10 /* Sugar_Sugar_21_FlavoursUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		65B2C8B1266057BE00288D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B2C88F266057B500288D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B2C896266057B500288D10;
+			remoteInfo = "Sugar Sugar 21 Flavours";
+		};
+		65B2C8BC266057BE00288D10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 65B2C88F266057B500288D10 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 65B2C896266057B500288D10;
+			remoteInfo = "Sugar Sugar 21 Flavours";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		65B2C897266057B500288D10 /* Sugar Sugar 21 Flavours.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Sugar Sugar 21 Flavours.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B2C89A266057B500288D10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65B2C89C266057B500288D10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65B2C89E266057B500288D10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		65B2C8A1266057B500288D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65B2C8A4266057B500288D10 /* Sugar_Sugar_21_Flavours.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sugar_Sugar_21_Flavours.xcdatamodel; sourceTree = "<group>"; };
+		65B2C8A6266057BD00288D10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65B2C8A9266057BD00288D10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65B2C8AB266057BD00288D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B2C8B0266057BE00288D10 /* Sugar Sugar 21 FlavoursTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sugar Sugar 21 FlavoursTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B2C8B4266057BE00288D10 /* Sugar_Sugar_21_FlavoursTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar_Sugar_21_FlavoursTests.swift; sourceTree = "<group>"; };
+		65B2C8B6266057BE00288D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65B2C8BB266057BE00288D10 /* Sugar Sugar 21 FlavoursUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Sugar Sugar 21 FlavoursUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65B2C8BF266057BE00288D10 /* Sugar_Sugar_21_FlavoursUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sugar_Sugar_21_FlavoursUITests.swift; sourceTree = "<group>"; };
+		65B2C8C1266057BE00288D10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65B2C894266057B500288D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B2C8AD266057BE00288D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B2C8B8266057BE00288D10 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65B2C88E266057B500288D10 = {
+			isa = PBXGroup;
+			children = (
+				65B2C899266057B500288D10 /* Sugar Sugar 21 Flavours */,
+				65B2C8B3266057BE00288D10 /* Sugar Sugar 21 FlavoursTests */,
+				65B2C8BE266057BE00288D10 /* Sugar Sugar 21 FlavoursUITests */,
+				65B2C898266057B500288D10 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65B2C898266057B500288D10 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65B2C897266057B500288D10 /* Sugar Sugar 21 Flavours.app */,
+				65B2C8B0266057BE00288D10 /* Sugar Sugar 21 FlavoursTests.xctest */,
+				65B2C8BB266057BE00288D10 /* Sugar Sugar 21 FlavoursUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65B2C899266057B500288D10 /* Sugar Sugar 21 Flavours */ = {
+			isa = PBXGroup;
+			children = (
+				65B2C89A266057B500288D10 /* AppDelegate.swift */,
+				65B2C89C266057B500288D10 /* SceneDelegate.swift */,
+				65B2C89E266057B500288D10 /* ViewController.swift */,
+				65B2C8A0266057B500288D10 /* Main.storyboard */,
+				65B2C8A6266057BD00288D10 /* Assets.xcassets */,
+				65B2C8A8266057BD00288D10 /* LaunchScreen.storyboard */,
+				65B2C8AB266057BD00288D10 /* Info.plist */,
+				65B2C8A3266057B500288D10 /* Sugar_Sugar_21_Flavours.xcdatamodeld */,
+			);
+			path = "Sugar Sugar 21 Flavours";
+			sourceTree = "<group>";
+		};
+		65B2C8B3266057BE00288D10 /* Sugar Sugar 21 FlavoursTests */ = {
+			isa = PBXGroup;
+			children = (
+				65B2C8B4266057BE00288D10 /* Sugar_Sugar_21_FlavoursTests.swift */,
+				65B2C8B6266057BE00288D10 /* Info.plist */,
+			);
+			path = "Sugar Sugar 21 FlavoursTests";
+			sourceTree = "<group>";
+		};
+		65B2C8BE266057BE00288D10 /* Sugar Sugar 21 FlavoursUITests */ = {
+			isa = PBXGroup;
+			children = (
+				65B2C8BF266057BE00288D10 /* Sugar_Sugar_21_FlavoursUITests.swift */,
+				65B2C8C1266057BE00288D10 /* Info.plist */,
+			);
+			path = "Sugar Sugar 21 FlavoursUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65B2C896266057B500288D10 /* Sugar Sugar 21 Flavours */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B2C8C4266057BE00288D10 /* Build configuration list for PBXNativeTarget "Sugar Sugar 21 Flavours" */;
+			buildPhases = (
+				65B2C893266057B500288D10 /* Sources */,
+				65B2C894266057B500288D10 /* Frameworks */,
+				65B2C895266057B500288D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Sugar Sugar 21 Flavours";
+			productName = "Sugar Sugar 21 Flavours";
+			productReference = 65B2C897266057B500288D10 /* Sugar Sugar 21 Flavours.app */;
+			productType = "com.apple.product-type.application";
+		};
+		65B2C8AF266057BE00288D10 /* Sugar Sugar 21 FlavoursTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B2C8C7266057BE00288D10 /* Build configuration list for PBXNativeTarget "Sugar Sugar 21 FlavoursTests" */;
+			buildPhases = (
+				65B2C8AC266057BE00288D10 /* Sources */,
+				65B2C8AD266057BE00288D10 /* Frameworks */,
+				65B2C8AE266057BE00288D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B2C8B2266057BE00288D10 /* PBXTargetDependency */,
+			);
+			name = "Sugar Sugar 21 FlavoursTests";
+			productName = "Sugar Sugar 21 FlavoursTests";
+			productReference = 65B2C8B0266057BE00288D10 /* Sugar Sugar 21 FlavoursTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		65B2C8BA266057BE00288D10 /* Sugar Sugar 21 FlavoursUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65B2C8CA266057BE00288D10 /* Build configuration list for PBXNativeTarget "Sugar Sugar 21 FlavoursUITests" */;
+			buildPhases = (
+				65B2C8B7266057BE00288D10 /* Sources */,
+				65B2C8B8266057BE00288D10 /* Frameworks */,
+				65B2C8B9266057BE00288D10 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				65B2C8BD266057BE00288D10 /* PBXTargetDependency */,
+			);
+			name = "Sugar Sugar 21 FlavoursUITests";
+			productName = "Sugar Sugar 21 FlavoursUITests";
+			productReference = 65B2C8BB266057BE00288D10 /* Sugar Sugar 21 FlavoursUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65B2C88F266057B500288D10 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					65B2C896266057B500288D10 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					65B2C8AF266057BE00288D10 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 65B2C896266057B500288D10;
+					};
+					65B2C8BA266057BE00288D10 = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 65B2C896266057B500288D10;
+					};
+				};
+			};
+			buildConfigurationList = 65B2C892266057B500288D10 /* Build configuration list for PBXProject "Sugar Sugar 21 Flavours" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65B2C88E266057B500288D10;
+			productRefGroup = 65B2C898266057B500288D10 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65B2C896266057B500288D10 /* Sugar Sugar 21 Flavours */,
+				65B2C8AF266057BE00288D10 /* Sugar Sugar 21 FlavoursTests */,
+				65B2C8BA266057BE00288D10 /* Sugar Sugar 21 FlavoursUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65B2C895266057B500288D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B2C8AA266057BD00288D10 /* LaunchScreen.storyboard in Resources */,
+				65B2C8A7266057BD00288D10 /* Assets.xcassets in Resources */,
+				65B2C8A2266057B500288D10 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B2C8AE266057BE00288D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B2C8B9266057BE00288D10 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65B2C893266057B500288D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B2C89F266057B500288D10 /* ViewController.swift in Sources */,
+				65B2C89B266057B500288D10 /* AppDelegate.swift in Sources */,
+				65B2C8A5266057B500288D10 /* Sugar_Sugar_21_Flavours.xcdatamodeld in Sources */,
+				65B2C89D266057B500288D10 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B2C8AC266057BE00288D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B2C8B5266057BE00288D10 /* Sugar_Sugar_21_FlavoursTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		65B2C8B7266057BE00288D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65B2C8C0266057BE00288D10 /* Sugar_Sugar_21_FlavoursUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		65B2C8B2266057BE00288D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B2C896266057B500288D10 /* Sugar Sugar 21 Flavours */;
+			targetProxy = 65B2C8B1266057BE00288D10 /* PBXContainerItemProxy */;
+		};
+		65B2C8BD266057BE00288D10 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 65B2C896266057B500288D10 /* Sugar Sugar 21 Flavours */;
+			targetProxy = 65B2C8BC266057BE00288D10 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		65B2C8A0266057B500288D10 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B2C8A1266057B500288D10 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65B2C8A8266057BD00288D10 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65B2C8A9266057BD00288D10 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65B2C8C2266057BE00288D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65B2C8C3266057BE00288D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65B2C8C5266057BE00288D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sugar Sugar 21 Flavours/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sugar-Sugar-21-Flavours.Sugar-Sugar-21-Flavours";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		65B2C8C6266057BE00288D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sugar Sugar 21 Flavours/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sugar-Sugar-21-Flavours.Sugar-Sugar-21-Flavours";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		65B2C8C8266057BE00288D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sugar Sugar 21 FlavoursTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sugar-Sugar-21-Flavours.Sugar-Sugar-21-FlavoursTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sugar Sugar 21 Flavours.app/Sugar Sugar 21 Flavours";
+			};
+			name = Debug;
+		};
+		65B2C8C9266057BE00288D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sugar Sugar 21 FlavoursTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sugar-Sugar-21-Flavours.Sugar-Sugar-21-FlavoursTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sugar Sugar 21 Flavours.app/Sugar Sugar 21 Flavours";
+			};
+			name = Release;
+		};
+		65B2C8CB266057BE00288D10 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sugar Sugar 21 FlavoursUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sugar-Sugar-21-Flavours.Sugar-Sugar-21-FlavoursUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sugar Sugar 21 Flavours";
+			};
+			name = Debug;
+		};
+		65B2C8CC266057BE00288D10 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Sugar Sugar 21 FlavoursUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Sugar-Sugar-21-Flavours.Sugar-Sugar-21-FlavoursUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Sugar Sugar 21 Flavours";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65B2C892266057B500288D10 /* Build configuration list for PBXProject "Sugar Sugar 21 Flavours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B2C8C2266057BE00288D10 /* Debug */,
+				65B2C8C3266057BE00288D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B2C8C4266057BE00288D10 /* Build configuration list for PBXNativeTarget "Sugar Sugar 21 Flavours" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B2C8C5266057BE00288D10 /* Debug */,
+				65B2C8C6266057BE00288D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B2C8C7266057BE00288D10 /* Build configuration list for PBXNativeTarget "Sugar Sugar 21 FlavoursTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B2C8C8266057BE00288D10 /* Debug */,
+				65B2C8C9266057BE00288D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65B2C8CA266057BE00288D10 /* Build configuration list for PBXNativeTarget "Sugar Sugar 21 FlavoursUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65B2C8CB266057BE00288D10 /* Debug */,
+				65B2C8CC266057BE00288D10 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65B2C8A3266057B500288D10 /* Sugar_Sugar_21_Flavours.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65B2C8A4266057B500288D10 /* Sugar_Sugar_21_Flavours.xcdatamodel */,
+			);
+			currentVersion = 65B2C8A4266057B500288D10 /* Sugar_Sugar_21_Flavours.xcdatamodel */;
+			path = Sugar_Sugar_21_Flavours.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65B2C88F266057B500288D10 /* Project object */;
+}
